@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+*{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000;
+    width: 700px;
+    padding: 5px 15px 25px 15px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow : 7px 7px rgb(0, 0, 0);
+}
+header{
+    width: 350px;
+    margin: auto;
+    padding: 2px 20px;
+}
+
+div div{
+    background-color: transparent;
+    border: none;
+    width: auto;
+    margin: 0px auto;
+    border-radius: 0px;
+    padding: 5px 0px 15px 0px;
+    box-shadow : 0px 0px 0px 0px;
+}
+
+a{
+    text-decoration-line: none;
+    color: blue;
+}
+
+h1{
+    font-family: 'Paperlogy-8ExtraBold';
+}
+h1 span{
+    font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#left{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    border: 1px solid #000;
+    background-color: rgb(255, 255, 255);
+}
+
+aside{
+    text-align: left;
+    font-size: 13pt;
+    background-color:transparent;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow : 0px 0px 0px 0px;
+    padding: 0px 15px 25px 15px;
+}
+
+aside p{
+    font-size: 15pt;
+    text-align:center;
+}
+
+#notting{
+    font-size: 10pt;
+    color: grey;
+    font-style: italic;
+}
+
+#g5 p{
+    /* background-color: rgb(230, 230, 230); */
+    width: 420px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+    border: 0px solid #000;
+}

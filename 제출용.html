@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gogugam.css">
+    <link rel="stylesheet" href="calendar.css" />
+    <script src="calendar.js"></script>
+    <title>링크란</title>
+</head>
+<body>
+    <header>
+        <h1>고은<span>koeun</span></h1>
+        <p>인천비즈니스고 3학년 콘텐츠디자인과 8반</p>
+    </header>
+
+   <aside id="left">
+       <nav>
+            <p>목록</p>
+            <ol>
+                <li><a href="#main">Main</a></li>
+                <li><a href="#note">참고사항</a></li>
+                <li><a href="#personal">개인정보</a><br></li>
+                <li><a href="#genre">장르관련</a></li>
+            </ol>
+            <hr>
+        </nav>
+        <p>기타 일정</p>
+        <div id="calendar">캘린더</div>
+        <script>
+            var monthdata = getList();
+
+            document.getElementById('calendar').innerHTML = monthdata;v
+        </script>
+   </aside>
+    
+
+    <main>
+        <section id="main">
+            <h3>Main</h3>
+            <p>
+                고은 자기소개서(보다 더 개인적인...)<br>
+                Love: 조류, <a href="#genre">2차 창작물</a>,<br>
+                근현대사*의 문화·인문학·기계
+            </p>
+        </section>
+        <section id="note">
+            <h3>참고사항</h3>
+            <p>
+                취득 자격증<br>
+                한글, 파워포인트, 엑셀, 포토샵
+            </p>
+        </section>
+        <section id="personal">
+            <h3>개인정보</h3>
+            <div class="id">
+                <p>SNS</p>
+                생략
+                <p>academic ability</p>
+                인천주안북초등학교 <br>
+                인천인화여자중학교 <br>
+                인천비즈니스고등학교
+            </div>
+        </section>
+        <section id="somthing">
+            <h3>작업물</h3>
+            <div class="id">
+                <p>스네이크 게임</p>
+                <a href="https://koeun0325.github.io/GGinformatics/">사이트</a> <br>
+                <a href="https://github.com/koeun0325/GGinformatics.git">코드</a>
+                <p>캐릭터 대사 출력기</p>
+                이거 원래 사적으로 쓰려던 거라 급하게 조성한 레이아웃 내용이거든요? 아직 링크 안 만들엇는데 대충 그렇구나 하고 보세요
+            </div>
+        </section>
+        <section id="genre">
+            <h3>장르 관련</h2>
+                <p>
+                    MCU*, 웹소설 위주.<br>
+                </p>
+                <div id="g5">
+                    <h4>쩜오 취향</h4>
+                    <p>
+                        한국 영화 및 드라마:<br>
+                        장화홍련, 미쓰백, 미스터선샤인 등<br><br>
+        
+                        해외 영화 및 드라마:<br>
+                        여인의 향기, 레베카(1940), 퀸스갬빗 등<br>
+                    </p>
+                    <h4>웹소설 목록</h4>
+                    <p>
+                        데못죽(청려), 어바등(엘리자베스), 문송안함(멜키오르), <br>
+                        이착헌(브루클린 모건), 마차살(엘리자베트 호엔촐레른)
+                    </p>
+                    <h4>그 외</h4>
+                    <p>
+                        보석국, 프로메어, 세포신곡, 웹툰···<br><br>
+                    </p>
+                </div>
+        </section>
+    </main>
+</body>
+</html>
